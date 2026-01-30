@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# this progress to install Mysql, Ngnix and Python3 to gether
 echo "Updating system..."
 sudo dnf update -y
 
