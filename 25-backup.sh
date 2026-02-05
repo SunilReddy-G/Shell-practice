@@ -47,3 +47,7 @@ log "Backup started"
 log "Source Directory: $SOURCE_DIR"
 log "Destination Directory: $DEST_DIR"
 log "Days: $DAYS"
+
+if [ -z $FILE ]; then
+    log "No files to archieve ... $Y Skipping $N"
+LOGS_FILE
