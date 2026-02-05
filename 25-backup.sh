@@ -50,4 +50,4 @@ log "Days: $DAYS"
 
 if [ -z $FILE ]; then
     log "No files to archieve ... $Y Skipping $N"
-LOGS_FILE
+fi
