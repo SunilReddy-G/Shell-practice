@@ -50,4 +50,10 @@ log "Days: $DAYS"
 
 if [ -z $FILE ]; then
     log "No files to archieve ... $Y Skipping $N"
+else
+    # app-logs-$timestam.zip
+    log "Files found to archieve: $FILES"
+    +TIMESTAMP=$(date +%F-%H:%M:%S)
+    ZIP_FILE_NAME="$DEST_DIR/app-logs-$TIMESTAMP.ZIP"
+    echo "Archieve name: $ZIP_FILE_NAME"
 fi
