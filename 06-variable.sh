@@ -1,7 +1,7 @@
 #!/bin/bash
 
 START_TIME=$(date)
-echo "Script exicuted at: $TIMESTAMP"
+echo "Script exicuted at: $START_TIME"
 
 sleep 10
 
