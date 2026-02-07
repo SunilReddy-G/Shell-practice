@@ -8,4 +8,4 @@ SUM=$(($NUM1+$NUM2))
 echo "Sum is $SUM"
 #Arry
 FRUITS=("Apple" "Banana" "Promogranet")
-echo "Fruits are: ${$FURITS[@]}"
+echo "Fruits are: ${$FRUITS[@]}"
